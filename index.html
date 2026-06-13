@@ -893,7 +893,7 @@ const QUESTIONS = [
       { text: `转发 RMT 的声明并附上一段战后英国工运史的小作文`, tags: { brain:1, tool:1, group:1 }, domains:["政经","劳工"] },
       { text: `微信上找国内的朋友抱怨「又 TM 罢工了」`, tags: { volc:1, group:1, hedo:1 }, domains:[] },
       { text: `心里支持，但今天还是要赶 deadline——叫了个 Uber`, tags: { brain:1, island:1, work:1 }, domains:[] },
-      { text: `「啊，是吗」，继续走路上班，顺便重读一遍《资本论》第一卷`, tags: { brain:1, ice:1, island:1 }, domains:["政经","意识形态"] },
+      { text: `「啊，是吗」，继续走路上班`, tags: { brain:1, ice:1, island:1 }, domains:["政经","意识形态"] },
     ]
   },
   {
@@ -906,7 +906,7 @@ const QUESTIONS = [
     ]
   },
   {
-    q: `你 Brixton / Hackney (zone 2) 的房租又涨了 15%，你最想：`,
+    q: `你在伦敦的房租又涨了 15%，你最想：`,
     options: [
       { text: `立刻在小红书发一篇《伦敦租房血泪史》并艾特房产中介`, tags: { volc:1, aesth:1, group:1 }, domains:[] },
       { text: `加入 London Renters Union 等维权团体的本地小组开始组织`, tags: { hand:1, group:1, volc:1 }, domains:["实践","劳工"] },
@@ -972,9 +972,9 @@ const QUESTIONS = [
     q: `一个朋友突然跟你出柜，你：`,
     options: [
       { text: `「我早就知道了」——然后拥抱`, tags: { ice:1, group:1 }, domains:["酷儿"] },
-      { text: `立刻打开话匣子分享你最近读的酷儿理论`, tags: { brain:1, aesth:1 }, domains:["酷儿","性别"] },
+      { text: `打开话匣子分享你最近读的性别理论`, tags: { brain:1, aesth:1 }, domains:["酷儿","性别"] },
       { text: `沉默两秒，然后说「那今晚必须喝一杯庆祝」`, tags: { hedo:1, group:1, aesth:1 }, domains:["酷儿"] },
-      { text: `真诚地问他需要什么具体支持`, tags: { hand:1, group:1 }, domains:["实践","酷儿"] },
+      { text: `真诚地问Ta需要什么具体支持`, tags: { hand:1, group:1 }, domains:["实践","酷儿"] },
     ]
   },
   {
@@ -1000,7 +1000,7 @@ const QUESTIONS = [
     options: [
       { text: `8 点准时起床慢跑去 Tesco 买菜，回来再读两章 reading`, tags: { work:1, island:1, brain:1 }, domains:[] },
       { text: `惭愧地刷手机，刷完接着惭愧地睡去`, tags: { hedo:1, island:1 }, domains:[] },
-      { text: `跟朋友吃 brunch 顺便讨论本周社会/国际热点`, tags: { group:1, hedo:1, brain:1, aesth:1 }, domains:[] },
+      { text: `跟朋友吃 brunch 顺便讨论本周社会热点`, tags: { group:1, hedo:1, brain:1, aesth:1 }, domains:[] },
       { text: `已经在某个志愿活动现场了`, tags: { work:1, group:1, hand:1 }, domains:["实践","组织"] },
     ]
   },
@@ -1043,9 +1043,9 @@ const QUESTIONS = [
   {
     q: `假如你明天必须在公共空间做一场 5 分钟的开放麦，你的内容会是：`,
     options: [
-      { text: `通篇引用马克思 + 葛兰西 + 巴特勒`, tags: { brain:1, work:1, aesth:1 }, domains:["文化","意识形态"] },
+      { text: `通篇引用各种马克思 + 葛兰西 + 巴特勒之类的理论`, tags: { brain:1, work:1, aesth:1 }, domains:["文化","意识形态"] },
       { text: `永不写稿战神，凭感觉超人，分数赌怪`, tags: { hedo:1, aesth:1, volc:1 }, domains:[] },
-      { text: `疯狂跟朋友吐槽你的导师/室友/对象`, tags: { hedo:1, group:1, aesth:1 }, domains:[] },
+      { text: `吐槽你的导师/室友/对象`, tags: { hedo:1, group:1, aesth:1 }, domains:[] },
       { text: `拒绝演讲，「我不喜欢站在台前」`, tags: { ice:1, island:1 }, domains:[] },
     ]
   },
@@ -1126,7 +1126,7 @@ const CHARACTERS = [
     works: ["《狱中札记》"],
     keywords: ["文化霸权", "庶民研究", "工厂委员会", "有机知识分子"],
     reading: [],
-    events: [{title:`毛教员与李嘉诚：中国式现代化的范式变迁`, org:`热秋读书会 · 2024 秋季`}, {title:`从国家的主人翁到「卖拐」：赵本山与春晚小品如何资本主义化东北形象`, org:`热秋读书会 · 2025 春季`}, {title:`国家是资本主义的代理人吗？简论马克思主义国家理论`, org:`热秋读书会 · 2024 冬季`}, {title:`政治属于我们吗？当代左翼政治怎么办`, org:`热秋读书会 · 2025 冬季`}],
+    events: [{title:`毛泽东与李嘉诚：中国式现代化的范式变迁`, org:`热秋读书会 · 2024 秋季`}, {title:`从国家的主人翁到「卖拐」：赵本山与春晚小品如何资本主义化东北形象`, org:`热秋读书会 · 2025 春季`}, {title:`国家是资本主义的代理人吗？简论马克思主义国家理论`, org:`热秋读书会 · 2024 冬季`}, {title:`政治属于我们吗？当代左翼政治怎么办`, org:`热秋读书会 · 2025 冬季`}],
   },
   {
     id: "zizek", code: "OTHER", sub: "ta 者", char: "齐泽克", name: "齐泽克", enName: "Slavoj Žižek",
@@ -1141,7 +1141,7 @@ const CHARACTERS = [
     works: ["《意识形态的崇高客体》", "《活在末世》", "《暴力》", "《幻象的瘟疫》", "《娱乐何需理由》"],
     keywords: ["精神分析", "意识形态", "电影研究", "拉康"],
     reading: [],
-    events: [{title:`毛教员与李嘉诚：中国式现代化的范式变迁`, org:`热秋读书会 · 2024 秋季`}, {title:`从国家的主人翁到「卖拐」：赵本山与春晚小品如何资本主义化东北形象`, org:`热秋读书会 · 2025 春季`}],
+    events: [{title:`毛泽东与李嘉诚：中国式现代化的范式变迁`, org:`热秋读书会 · 2024 秋季`}, {title:`从国家的主人翁到「卖拐」：赵本山与春晚小品如何资本主义化东北形象`, org:`热秋读书会 · 2025 春季`}],
   },
   {
     id: "luxun", code: "YECAO", sub: "野草", char: "鲁迅", name: "鲁迅", enName: "Lu Xun",
@@ -1260,7 +1260,7 @@ const CHARACTERS = [
     works: ["《浮出历史地表》", "《隐形书写》"],
     keywords: ["电影研究", "文化研究", "女性主义批评", "大众文化", "当代中国"],
     reading: [],
-    events: [{title:`毛教员与李嘉诚：中国式现代化的范式变迁`, org:`热秋读书会 · 2024 秋季`}, {title:`从国家的主人翁到「卖拐」：赵本山与春晚小品如何资本主义化东北形象`, org:`热秋读书会 · 2025 春季`}, {title:`女性文学：什么才叫真正的女性主义写作？`, org:`骄傲性别小组 · 2025 春季`}],
+    events: [{title:`毛泽东与李嘉诚：中国式现代化的范式变迁`, org:`热秋读书会 · 2024 秋季`}, {title:`从国家的主人翁到「卖拐」：赵本山与春晚小品如何资本主义化东北形象`, org:`热秋读书会 · 2025 春季`},],
   },
   {
     id: "han", code: "WHITE", sub: "白", char: "韩江", name: "韩江", enName: "Han Kang",
@@ -1275,7 +1275,7 @@ const CHARACTERS = [
     works: ["《素食者》", "《少年来了》（韩译《人类行为》）", "《白》"],
     keywords: ["历史暴力", "女性身体", "记忆与创伤", "东亚现代性"],
     reading: [],
-    events: [{title:`女性文学：什么才叫真正的女性主义写作？`, org:`骄傲性别小组 · 2025 春季`}],
+    events: [],
   },
   {
     id: "beauvoir", code: "DEUX", sub: "贰", char: "波伏瓦", name: "西蒙娜·德·波伏瓦", enName: "Simone de Beauvoir",
@@ -1283,7 +1283,7 @@ const CHARACTERS = [
     domains: ["性别","文化"],
     quotes: [
       { body: `女人不是天生的，而是被造就的。`, attr: `1949 ·《第二性》` },
-      { body: `是的，我和让-保罗的关系是 open 的；是的，我有自己的情人；是的，请别再问了。`, attr: `1960s · 无数次回应法国小报（大意）` }
+      { body: `我渴望能见你一面，但请你记得，我不会开口要求要见你。这不是因为骄傲，你知道我在你面前毫无骄傲可言，而是因为，唯有你也想见我的时候，我们见面才有意义。`, attr: `1960s · 无数次回应法国小报（大意）` }
     ],
     desc: `巴黎左岸 Café de Flore 永远有她的位置，头巾一裹一坐就是六小时；写《第二性》的时候顺便谈了好几段恋爱并把它们都记进日记；学术上严谨到可怕，生活上潇洒到欠揍；和萨特的关系是 20 世纪最 long-running 的开放式关系（虽然现在回看也很多瑕疵）；老年时戴着大珍珠耳环抽烟，眼神里写着「我都见过」。`,
     bio: `1908—1986 · 法国巴黎。哲学教师、作家与女性主义思想家，长期活跃于战后法国存在主义知识圈。她以《第二性》系统批判父权社会对「女性」的建构，提出女性并非天生如此，而是在社会、历史与文化结构中被塑造成「他者」。`,
